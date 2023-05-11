@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Grape Nuts';
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  z-index: 70;
+}
+
+.bg {
+  background: #d9d9d9;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  z-index: 1000;
+}
+
+.header__icon {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 12px auto;
+}
+
+.header__icon--social i {
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.header__icon--info {
+  display: flex;
+  align-items: center;
+  font-family: 'Work Sans';
+}
+
+.header__icon--info i {
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.header__menu {
+  height: 50px;
+  text-align: center;
+  font-family: 'Work Sans';
+  font-size: 20px;
+}
+
+.header__menu button {
+  padding: 10px 20px;
+  margin: 0 15px;
+  background: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.header__menu button:hover {
+  background: #6de9e4;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 679px;
+  background-image: url(./img/banner1.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.banner__text--title {
+  font-family: 'Abril Fatface';
+  font-size: 48px;
+}
+
+.banner__text--des {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.whyus {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 679px;
+  padding-top: 150px;
+  padding-bottom: 60px;
+  margin-bottom: 80px;
+  border-bottom: 1px solid #333;
+  color: white;
+  text-align: center;
+}
+
+.whyus__title {
+  margin-bottom: 60px;
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.whyus__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+  z-index: 69;
+}
+
+.whyus__list--item {
+  height: 350px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.whyus__list--item p:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 10px auto;
+  text-align: center;
+  color: black;
+  font-size: 28px;
+}
+
+.whyus__list--item p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #282828;
+  font-family: 'Abril Fatface';
+}
+
+.whyus__list--item p:last-child {
+  width: 85%;
+  margin: 0 auto;
+  color: #282828;
+  font-family: 'Work Sans';
+  font-size: 20px;
+}
+
+.about {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+.footer-wrapper {
+  position: relative;
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url(./img/banner1.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 68;
+}
+
+.blur {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 68;
+}
+
+.footer {
+  position: relative;
+  height: 400px;
+  padding: 70px 0;
+  z-index: 69;
+}
+
+.footer__des {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer__des svg {
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+.footer__des span {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  font-size: 128px;
+}
+
+.footer__info {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  font-family: 'Work Sans';
+}
