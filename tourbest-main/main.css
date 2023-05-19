@@ -33,7 +33,18 @@ html {
   margin-right: 25px;
   font-size: 20px;
 }
+.header__icon--social a:link {
+  text-decoration: none;
 
+}
+.header__icon--social a:visited {
+  text-decoration: none;
+  
+}
+.header__icon--social a:active {
+  text-decoration: none;
+  
+}
 .header__icon--info {
   display: flex;
   align-items: center;
@@ -558,4 +569,14 @@ html {
 
 .subcribe-btn:hover {
   background: #6de9e4;
+}
+
+input{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  height: 20px;
+  width: 500px;
+  border:1px solid #eaeaea;
+  outline:none;
 }
